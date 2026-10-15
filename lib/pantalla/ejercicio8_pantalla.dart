@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../logica/ejercicio8_logica.dart';
 
 class Ejercicio8Pantalla extends StatefulWidget {
@@ -54,7 +55,10 @@ class _Ejercicio8PantallaState extends State<Ejercicio8Pantalla> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const Text('Ingrese un número para invertirlo:', style: TextStyle(fontSize: 18)),
+            const Text(
+              'Ingrese un número para invertirlo:',
+              style: TextStyle(fontSize: 18),
+            ),
             const SizedBox(height: 10),
             TextField(
               controller: _numeroController,
@@ -80,7 +84,7 @@ class _Ejercicio8PantallaState extends State<Ejercicio8Pantalla> {
               ],
             ),
             const SizedBox(height: 20),
-            // Mensaje de error (si hay)
+            // Mensaje de error 
             Text(
               _mensaje,
               style: const TextStyle(color: Colors.red, fontSize: 16),
@@ -89,7 +93,11 @@ class _Ejercicio8PantallaState extends State<Ejercicio8Pantalla> {
             if (_resultado.isNotEmpty)
               Text(
                 'Número invertido: $_resultado',
-                style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.green),
+                style: const TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.green,
+                ),
               ),
           ],
         ),
