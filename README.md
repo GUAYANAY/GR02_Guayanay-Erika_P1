@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pry_prueba1
 
 A new Flutter project.
@@ -15,3 +16,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# GR02_Guayanay-Erika_P1
+Prueba 1 _ grupo 2
+>>>>>>> 4aba0e6a3cfbcd0ef0273529e31ea77d164997c2
